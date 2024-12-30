@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image { 
+    float: left;
+     margin-right: 10px;
+
+}
+.image1 { 
+    float: left;
+    margin-right: 10px; 
+}
+nav {
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+#BuyMedicines{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 24, 24);
+    position: relative;
+}
+.link-container {
+    display: flex;
+    justify-content: space-between; /* Space between links */
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%; 
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    background-color: lightcoral; 
+    color: black;
+    padding: 10px;
+    text-align: right;
+    font-size: 18px; 
+}
+.search-container {
+    position: absolute;
+    top: 70%; 
+    left: 65%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    background-color: lightyellow;
+    color: black;
+    padding: 10px;
+    text-align: right;
+    font-size: 18px; 
+}
+.container { 
+    display: flex;  
+   gap: 60px; /* Space between the cards */ 
+}
+.card {
+    display: flex;
+    background-color:  rgba(22, 240, 240, 0.512);
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 300px;
+     margin-left: 80px;
+    margin-top: 20px; 
+}
+
+.card1 {
+    display: flex;
+    background-color: rgb(213, 238, 144);
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card2 {
+    display: flex;
+    background-color: rgba(238, 130, 238, 0.463); 
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card3 {
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.512); 
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.card-image {
+    width: 40px;
+    height: 50px; 
+    align-items: center;
+}
+
+.card-content {
+    padding: 10px;
+    width: 200px; 
+}
+
+.card-content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card-content p {
+    margin-bottom: 0;
+    color: #666;
+}
+.imageof{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.container2 { 
+    display: flex;  
+   gap: 60px; 
+   margin-top: 20px;
+}
+.heading{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.container3{
+    display: flex;  
+   gap: 60px; 
+   margin-top: 50px;
+   margin-left: 25px;
+}
+
+.styled-button {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 15px 30px; 
+    font-size: 15px; 
+    color: white; 
+    background-color: rgb(75, 112, 112); 
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.styled-button:hover {
+    background-color: rgba(0, 255, 255, 0.448); 
+    transform: scale(1.05); 
+}
+
+.styled-button:active {
+    transform: scale(0.95);
+}
